@@ -85,3 +85,25 @@ body {
 
 }
 
+/* SITE-ADS */
+.site-ads {
+    display: block;
+    width: 100%;
+    background: linear-gradient(90deg, #0031AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    column-gap: 24px;
+}
+
+.site-ads__text {
+    max-width: 166px;
+    width: 100%;
+    font-family: var(--Comfortaa);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* SITE-ADS */
