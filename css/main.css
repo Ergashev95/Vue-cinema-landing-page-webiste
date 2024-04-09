@@ -346,7 +346,6 @@ body {
         position: relative;
         border-radius: 6px;
         overflow: hidden;
-
     }
     .collections-card__image {
         width: 100%;
@@ -392,7 +391,6 @@ body {
     /* COLLECTIONS SECTION */
 
     /* AFTER BEFORE */
-
     .collections-card__content::before {
         content: url(../img/Выбрать.png);
         display: block;
@@ -407,7 +405,6 @@ body {
         right: 10px;
         transition: 1s;
     }
-
     .collections-card__content:hover::before {
         transform: translateY(110%);
     }
@@ -415,4 +412,53 @@ body {
         transform: translateY(-110%);
     }
 
+
+    /* SERIES SECTION */
+    .series {
+        padding-bottom: 65px;
+    }
+    .series-lg {
+        width: 100%;
+        height: 436px;
+        position: relative;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    .series-lg__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .series-lg__content {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(96deg, rgba(35, 35, 35, 0.80) 10.25%, rgba(11, 11, 11, 0.60) 110.25%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .series-lg__title {
+        color: var(--white);
+        font-family: var(--Comfortaa);
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .series-lg__text {
+        color: var(--white);
+        font-family: var(--Comfortaa);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    /* SERIES SECTION */
 /* SITE-MAIN */
